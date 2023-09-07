@@ -26,7 +26,7 @@ class _HomePageState extends State<HomePage> {
           floatingActionButton: FloatingActionButton(
             child: const Text('Change color'),
             onPressed: () => setState(() {
-              scaffoldColor = Colors.amberAccent;
+              //scaffoldColor = Colors.amberAccent;
             }),
           ),
         );
