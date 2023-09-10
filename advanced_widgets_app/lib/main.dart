@@ -1,8 +1,7 @@
+import 'package:advanced_widgets_app/home_page.dart';
 import 'package:flutter/material.dart';
 
-import 'home_page.dart';
-
-void main() {
+void main() async {
   runApp(const MainApp());
 }
 

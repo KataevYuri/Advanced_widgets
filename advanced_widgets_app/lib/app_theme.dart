@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AppTheme extends InheritedWidget {
-  final Color color;
+  final Color? color;
 
   const AppTheme({super.key, required super.child, required this.color});
 
@@ -11,6 +11,6 @@ class AppTheme extends InheritedWidget {
 
   @override
   bool updateShouldNotify(AppTheme oldWidget) {
-    return true;
+    return color != oldWidget.color;
   }
 }
